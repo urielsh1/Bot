@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: bot-whatsapp-codigo
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: WHATSAPP_NUMBER
+        value: 524891134390
